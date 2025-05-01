@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -15,22 +16,10 @@ const CTA = () => {
             <p className="text-lg md:text-xl mb-8 text-gray-300">
               Join thousands of investors who are building wealth with GrowReal's fractional property investments.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="rounded-full text-base bg-white text-black hover:bg-gray-200">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                  <path d="M9 18V5l12-2v13"></path>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <circle cx="18" cy="16" r="3"></circle>
-                </svg>
-                App Store
-              </Button>
-              <Button size="lg" className="rounded-full text-base bg-white text-black hover:bg-gray-200">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                </svg>
-                Google Play
-              </Button>
-            </div>
+            <Button size="lg" className="rounded-full text-base bg-white text-black hover:bg-gray-200">
+              <Download className="mr-2" />
+              Download GrowReal
+            </Button>
           </div>
         </div>
       </div>
