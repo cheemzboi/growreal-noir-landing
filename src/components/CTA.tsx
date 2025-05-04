@@ -14,11 +14,11 @@ const CTA = () => {
               Ready to Start Your Real Estate Journey?
             </h2>
             <p className="text-lg md:text-xl mb-8 text-gray-300">
-              Join thousands of investors who are building wealth with GrowReal's fractional property investments.
+              Join thousands of investors who are building wealth with GrowHill's fractional property investments.
             </p>
             <Button size="lg" className="rounded-full text-base bg-white text-black hover:bg-gray-200">
               <Download className="mr-2" />
-              Download GrowReal
+              Download GrowHill
             </Button>
           </div>
         </div>
