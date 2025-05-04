@@ -35,7 +35,7 @@ const Index = () => {
                 <div className="rounded-xl shadow-lg overflow-hidden">
                   <AspectRatio ratio={9/16}>
                     <img 
-                      src="/lovable-uploads/e3137c6e-9cbe-4474-a7ab-94bf75a14a33.png"
+                      src="/lovable-uploads/206765b2-efc2-4eac-bc0e-059e9f1e03c3.png"
                       alt="GrowHill Investment Marketplace" 
                       className="object-cover w-full h-full"
                     />
