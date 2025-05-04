@@ -7,9 +7,16 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex justify-center">
           <div className="text-center">
-            <h2 className="text-xl font-display font-bold mb-4">
-              Grow<span className="font-black">Hill</span>
-            </h2>
+            <div className="flex items-center justify-center mb-4">
+              <img 
+                src="/lovable-uploads/753dc212-1e5a-4712-bf2c-03ba962eb5f5.png" 
+                alt="GrowHill Logo" 
+                className="h-10 mr-2"
+              />
+              <h2 className="text-xl font-display font-bold">
+                Grow<span className="font-black">Hill</span>
+              </h2>
+            </div>
             <p className="text-muted-foreground mb-6">
               Making real estate investment accessible, transparent, and profitable for everyone.
             </p>

@@ -7,8 +7,13 @@ const Navbar = () => {
     <header className="w-full py-4 px-4 md:px-8 border-b border-border fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/753dc212-1e5a-4712-bf2c-03ba962eb5f5.png" 
+            alt="GrowHill Logo" 
+            className="h-8 mr-2"
+          />
           <h1 className="text-xl md:text-2xl font-display font-bold">
-            Grow<span className="font-black">Real</span>
+            Grow<span className="font-black">Hill</span>
           </h1>
         </div>
         
